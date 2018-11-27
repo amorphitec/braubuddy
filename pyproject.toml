@@ -27,6 +27,7 @@ python = '>=3.6'
 black = '18.9b0'
 pytest = '4.0.1'
 pytest-cov = '2.6.0'
+tox = '3.5.3'
 
 [tool.black]
 line-length = 100
@@ -49,3 +50,18 @@ exclude = '''
   | tests/data
 )/
 '''
+
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+skipsdist=True
+envlist = py36
+
+[testenv]
+whitelist_externals = poetry
+skip_install = true
+commands =
+    poetry install -v
+    poetry run pytest tests/
+"""
