@@ -23,3 +23,8 @@ classifiers=[
 [tool.poetry.dependencies]
 python = '>=3.6'
 
+[tool.poetry.dev-dependencies]
+black = '18.9b0'
+pytest = '4.0.1'
+pytest-cov = '2.6.0'
+
