@@ -6,8 +6,8 @@ authors = [
     'Stuart Dines <me@stuartdines.com>',
 ]
 readme = 'README.md'
-repository = 'http://braubuddy.org/'
-homepage = 'https://github.com/amorphitec/braubuddy'
+repository = 'https://github.com/amorphitec/braubuddy'
+homepage = 'http://braubuddy.org/'
 
 classifiers=[
     'Development Status :: 4 - Beta',
