@@ -2,8 +2,9 @@ language: python
 python:
 - 3.6
 before_install:
-- pip install poetry
+- pip install poetry safety
 install:
 - poetry install
 script:
+- safety check
 - pytest
