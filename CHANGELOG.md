@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file.
 - Test framework and scaffold.
 - pyproject configuration.
+- Add `bandit` for security linting.
