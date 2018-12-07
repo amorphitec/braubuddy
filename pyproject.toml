@@ -28,6 +28,7 @@ black = '18.9b0'
 pytest = '4.0.1'
 pytest-cov = '2.6.0'
 tox = '3.5.3'
+bandit = "^1.5"
 
 [tool.black]
 line-length = 100
