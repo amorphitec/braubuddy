@@ -7,4 +7,4 @@ install:
 - poetry install
 script:
 - safety check
-- pytest
+- tox
